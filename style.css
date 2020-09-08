@@ -5,16 +5,15 @@ h1
 
 body
 {
-	background-color: white;
+	background-image: url("https://cdn.discordapp.com/attachments/713433839095119963/752859990309470319/64a3f1b40d98da7156757e1744c63720.gif"); 
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #carte
 {
-
 	width: 800px;
 	margin:0 auto;
-	background-color: white;
 	text-align: center;
 	align content: center;
 }
-
