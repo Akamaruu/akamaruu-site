@@ -1,45 +1,218 @@
+
 <!DOCTYPE html>
-
-<html>
-    <head>
-         <meta charset="utf-8">
-         <title>Nishumi.</title>
-         <link rel="stylesheet" href="style.css">
-   </head>
-
-   <body>
-
-        <div id="carte">
-
-        </h1>Bienvenue sur mon site ! ^^</h1><br>
-
-        <img src="https://cdn.discordapp.com/attachments/722039056048979999/752201980230762557/giphy.gif">
-
-        <p>Ce site est un site simple et basique rien de plus, tournant peut etre dans l'univers des animes et differents jeux.</p>
-
-        <h2> Les liens utilitaires :
-
-        <ul>
-
-            <li>Notre lien discord ! : <br>
-                
-                <a href="https://discord.gg/MXmBPaf"><img src="https://cdn.discordapp.com/attachments/722039056048979999/752203774101159996/tenor.gif"></li><a>
-
-            <li>Notre bot discord ! : <br>
-
-                <a href="https://discord.com/oauth2/authorize?client_id=752114546415632396&scope=bot&permissions=8"><img src="https://cdn.discordapp.com/attachments/722039056048979999/752207184472965150/tenor.gif"></li><a>
-            <li>Pour faire une candidature au but d'integrer le staff de notre serveur : SOON <br>
-
-                <a href="site2.html"><img src="https://cdn.discordapp.com/attachments/722039056048979999/752206021409243256/tenor.gif"></li><a>
-
-            <li>Mon AutoClick : <br>
-
-               <a href="https://github.com/Akamaruu/AkiAutoClick"><img src="https://images.squarespace-cdn.com/content/v1/5508a48ce4b05ef9ded22bbe/1543938983671-DB1T3RBQ1DGBOHMUYQCN/ke17ZwdGBToddI8pDm48kDAv91l_EVpAtt3T82Wm1m9Zw-zPPgdn4jUwVcJE1ZvWEtT5uBSRWt4vQZAgTJucoTqqXjS3CfNDSuuf31e0tVEcs4OJ1MUiSygP0U4z2bUeJj0Nr1n48rGt1cKo_lK-mJuG45vQwBxdpDrCGUSSl5w/1510001409393.gif"></li><a>
-
-
-
-    </body>
-
-
-
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, user-scalable=no">
+<meta name="identifier-url" content="https://filobot.xyz" />
+<meta property="og:site_name" content="Noel" />
+<meta name="title" content="Noel — Un bot Discord" />
+<meta name="description" content="Noel est un bot Discord puissant et mutli-fonctions. Customizable, multiple languages, report, logging, welcomes and farewells, member counter, anti-invites, auto-mod, anti-evasion. +190 commands." />
+<meta name="abstract" content="Noel est un bot Discord puissant et multi-fonctions. Customizable, member counter, fun, utils, modération. +70 commandes." />
+<meta name="keywords" content="noel, noelbot, discord, discord bot, noel discord, noelbot discord, noel discord bot, noel discord bot" />
+<meta name="author" content="Noel" />
+<meta name="language" content="english" />
+<meta name="copyright" content="2020-2021 Noel ©" />
+<meta name="robots" content="All" />
+<meta data-react-helmet="true" property="og:image" content="https://cdn.filobot.xyz/images/favicon.png" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script src="/cdn-cgi/apps/head/x0Y7eZ1QUZsmDLme8IxJL0nC6nA.js"></script><link rel="apple-touch-icon" sizes="57x57" href="https://cdn.filobot.xyz/assets/icon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="https://cdn.filobot.xyz/assets/icon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="https://cdn.filobot.xyz/assets/icon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="https://cdn.filobot.xyz/assets/icon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="https://cdn.filobot.xyz/assets/icon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="https://cdn.filobot.xyz/assets/icon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="https://cdn.filobot.xyz/assets/icon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="https://cdn.filobot.xyz/assets/icon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://cdn.filobot.xyz/assets/icon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192" href="https://cdn.filobot.xyz/assets/icon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://cdn.filobot.xyz/assets/icon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="https://cdn.filobot.xyz/assets/icon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://cdn.filobot.xyz/assets/icon/favicon-16x16.png">
+<link rel="manifest" href="https://cdn.filobot.xyz/assets/icon/manifest.json">
+<meta name="msapplication-TileColor" content="#2f3136">
+<meta name="msapplication-TileImage" content="https://cdn.filobot.xyz/assets/icon/ms-icon-144x144.png">
+<meta name="theme-color" content="#2f3136" />
+<title>Noel - Un Bot Discord</title>
+<link rel="stylesheet" href="https://cdn.filobot.xyz/assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdn.filobot.xyz/assets/css/now-ui-kit.css">
+<link rel="stylesheet" href="https://cdn.filobot.xyz/assets/css/MU6iCKtooYu894ztgcvQOG6JhjF2wa.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700,800&display=swap" rel="stylesheet">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://cdn.filobot.xyz/assets/css/cookieconsent.min.css" />
+<script src="https://cdn.filobot.xyz/assets/js/cookieconsent.min.js" data-cfasync="false"></script>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg bg-transparent">
+<li class="nav-item navbar-marker">
+<p class="navbar-brand navbar-title">NOEL</p>
+</li>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon">
+<i class="fa fa-bars" style="font-size: 25px;"></i>
+</span>
+</button>
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+<ul class="navbar-nav mr-auto">
+<li class="nav-item active">
+<a class="nav-link" href="site.html">Home<span class="sr-only">(current)</span></a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="http://discord.com/404">Donation</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="https://discord.com/404">Serveur Discord</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="https://discord.com/oauth2/authorize?client_id=778231646876467200&scope=bot&permissions=8">Invite</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="https://discord.com/404">Vote</a>
+</li>
+</ul>
+</div>
+</nav>
+<center>
+<div class="announcements">
+<span><a href="https://filobot.xyz/discord" target="_blank" rel="noopener"><strong>Plus d'informations ici</strong></a></span>
+</div>
+</center>
+<div class="header text-center">
+<div class="container">
+<div class="filo">
+<a href="https://discord.com/oauth2/authorize?client_id=778231646876467200&scope=bot&permissions=8" target="_blank" rel="noopener"><script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="09441ddef32d59f1261c5452-|49"></script><img class="asyncImage" src="https://cdn.discordapp.com/avatars/778231646876467200/819e99b5543d11ebc71d20549b890ca3.webp?size=1024" data-src="https://cdn.discordapp.com/avatars/778231646876467200/819e99b5543d11ebc71d20549b890ca3.webp?size=1024" onerror="this.src='https://cdn.filobot.xyz/images/error.png';" alt="An error occurred while trying to load this image, please inform the administration of this problem." width="auto" height="auto" /></a>
+</div>
+</div>
+<h1 class="display-5 title">Un bot puissant et multi-fonctions</h1>
+<p class="subtitle">avec plus de 75 commandes !</p>
+<a class="btn btn-features btn-lg" href="#features" role="button"><script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="09441ddef32d59f1261c5452-|49"></script><img class="asyncImage" src="https://cdn.filobot.xyz/assets/others/star-min.png" data-src="https://cdn.filobot.xyz/assets/others/star-optimized.png" onerror="this.src='https://cdn.filobot.xyz/images/error.png';" alt="An error occurred while trying to load this image, please inform the administration of this problem." width="25" height="25" />&nbsp; Fonctionnalitées</a>
+<a class="btn btn-invite btn-lg" href="https://discord.com/oauth2/authorize?client_id=778231646876467200&scope=bot&permissions=8" role="button" target="_blank" rel="noopener">Ajouter sur votre serveur</a>
+<div class="discord-server">
+<script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="09441ddef32d59f1261c5452-|49"></script><img class="asyncImage" src="https://cdn.discordapp.com/attachments/793560695407902730/793801696484524035/9eb64510150a5eaa7bc6e89e366508e7.gif" data-src="https://cdn.discordapp.com/attachments/793560695407902730/793801696484524035/9eb64510150a5eaa7bc6e89e366508e7.gif" onerror="this.src='https://cdn.filobot.xyz/images/error.png';" alt="An error occurred while trying to load this image, please inform the administration of this problem." width="auto" height="auto" />
+</a>
+</div>
+</div>
+ <div id="features" class="features">
+<div class="title">Fonctionnalitées</div>
+<div class="cards">
+<div class="card">
+<div class="card-body">
+<h5 class="title">Utilitaire</h5>
+<p class="card-text">Utilisez nos divers commandes utilitaires qui vont subvenir a votre besoin.</p>
+</div>
+</div>
+<div class="card">
+<div class="card-body">
+      </svg>
+            <h2 class="title">Modération</h2>
+            <p>
+              Utilisez les toutes dernières commandes de modération pour modérer
+              votre serveur a la perfection.
+            </p>
+          </div>
+          <div class="car4 column hvr-grow">
+            <svg
+              width="123"
+              height="123"
+              viewBox="0 0 123 123"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+</div>
+</div>
+<div class="card">
+<div class="card-body">
+<h5 class="title">Fun</h5>
+<p class="card-text">On sais bien que parfois les gens s'ennuient et ne savent pas quoi faire... Mais Noel est la ! pour vous divertir en vos temps d'ennuis.</p>
+</div>
+</div>
+<div class="card">
+<div class="card-body">
+<h5 class="title">Radio</h5>
+<p class="card-text">Une radio sur le bot qui marche 24h/7j avec une trés bonne qualitée de son avec les meilleures radios françaises.</p>
+</div>
+</div>
+<div class="card">
+<div class="card-body">
+<h5 class="title">Infos</h5>
+<p class="card-text">Des commandes qui vous montrent des informations plus qu'utiles que ce soit pour l'utilisateur ou le serveur et même le bot !</p>
+</div>
+</div>
+<div class="card">
+<div class="card-body">
+<h5 class="title">Musique</h5>
+<p class="card-text">"Un bot musique ? on en a vu des centaines !" Eh bien ce n'est pas vraiment le cas car les commandes musiques de Noel sont tous sauf ordinaires ! avec une fonction qui permet de rajouter des filtres sonores a vos musiques.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="statistics" class="statistics">
+<div class="card">
+<div class="title">Statistiques de Noel</div>
+<div>
+ <h5>
+                Serveurs :
+                100
+              </h5>
+  <h5>
+                Utilisateurs :
+                1984
+              </h5>
+          </div>
+</div>
+</div>
+</div>
+</div>
+<div id="donate" class="donate">
+<div class="card">
+<div class="title"><script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="09441ddef32d59f1261c5452-|49"></script><img class="asyncImage container float-elements" style="float:none;width:auto;" <img class="asyncImage" src="https://cdn.filobot.xyz/assets/others/donate-min.png" data-src="https://cdn.filobot.xyz/assets/others/donate-optimized.png" onerror="this.src='https://cdn.filobot.xyz/images/error.png';" alt="An error occurred while trying to load this image, please inform the administration of this problem." /> Faire une donation au créateur</div>
+<div class="subtitle">Soutenez nous ci dessous</div>
+<a class="btn btn-donate btn-lg" target="_blank" rel="noopener" href="https://discord.com/404" role="button">Donation</a>
+</div>
+</div>
+<div id="vote" class="vote">
+<div class="card">
+<div class="title"><script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="09441ddef32d59f1261c5452-|49"></script><img class="asyncImage container float-elements" style="float:none;width:auto;" <img class="asyncImage" src="https://cdn.filobot.xyz/assets/others/hearts-min.png" data-src="https://cdn.filobot.xyz/assets/others/hearts-optimized.png" onerror="this.src='https://cdn.filobot.xyz/images/error.png';" alt="An error occurred while trying to load this image, please inform the administration of this problem." /> Vote pour Noel.</div>
+<a class="btn btn-vote btn-lg" target="_blank" rel="noopener" href="https://discord.com/404" role="button">Voter</a>
+<br>
+</div>
+</div>
+<div id="friendly-websites" class="friendly-websites">
+<div class="card">
+<div class="title"><script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="09441ddef32d59f1261c5452-|49"></script><img class="asyncImage container float-elements" style="float:none;width:auto" <img class="asyncImage" src="https://cdn.filobot.xyz/assets/others/star-min.png" data-src="https://cdn.filobot.xyz/assets/others/star-optimized.png" onerror="this.src='https://cdn.filobot.xyz/images/error.png';" alt="An error occurred while trying to load this image, please inform the administration of this problem." /> Sites familiers</div>
+<div class="cards">
+<div class="card websites">
+<div class="card-body">
+</div>
+</div>
+<div class="card websites">
+<div class="card-body">
+<h5 class="subtitle">Le bot Discord</h5>
+<p><a title="Visit Filo!" href="https://discord.com/404" target="_blank" rel="noopener"><script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="09441ddef32d59f1261c5452-|49"></script><img class="asyncImage" src="https://cdn.discordapp.com/attachments/793560695407902730/794907415237492776/unknown.png" data-src="https://cdn.discordapp.com/attachments/793560695407902730/794907415237492776/unknown.png" onerror="this.src='https://cdn.filobot.xyz/images/error.png';" alt="An error occurred while trying to load this image, please inform the administration of this problem." width="auto" height="auto" /></a></p>
+</div>
+</div>
+<div class="card websites">
+<div class="card-body">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="ready" class="ready">
+<div class="card">
+<div class="title">Pret pour tester Noel ?</div>
+<div class="subtitle">Rejoignez plus de 100 serveurs qui lui font confiance.</div>
+<a class="btn btn-invite btn-lg" href="https://discord.com/oauth2/authorize?client_id=778231646876467200&scope=bot&permissions=8" role="button">Ajouter sur votre serveur.</a>
+</div>
+</div>
+<div class="footer">
+Tous droits réservés a <a href="">"GØNΣ.</a>
+</div>
+<script src="https://cdn.filobot.xyz/assets/js/jquery-3.3.1.slim.min.js" type="09441ddef32d59f1261c5452-text/javascript"></script>
+<script src="https://cdn.filobot.xyz/assets/js/popper.min.js" type="09441ddef32d59f1261c5452-text/javascript"></script>
+<script src="https://cdn.filobot.xyz/assets/js/bootstrap.min.js" type="09441ddef32d59f1261c5452-text/javascript"></script>
+<script src="https://cdn.filobot.xyz/assets/js/now-ui-kit.min.js" type="09441ddef32d59f1261c5452-text/javascript"></script>
+<script src="https://cdn.filobot.xyz/assets/js/stats.js" type="09441ddef32d59f1261c5452-text/javascript"></script>
+<script src="https://cdn.filobot.xyz/assets/js/scripts.js" type="09441ddef32d59f1261c5452-text/javascript"></script>
+<script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="09441ddef32d59f1261c5452-|49" defer=""></script></body>
 </html>
